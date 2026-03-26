@@ -1,0 +1,6 @@
+const renda = 4.500
+const NL = true 
+
+const Emprestimo = renda > 2.000 && NL
+
+console.log(Emprestimo)

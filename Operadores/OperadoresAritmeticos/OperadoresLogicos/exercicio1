@@ -1,0 +1,12 @@
+const idade = 44 // idade da pessoa 
+const temAssinatura = false // indica se a pessoa tem assinatura ativa
+
+// Verificando se a pessoa pode acessar:
+// Condições:
+// - Precisa ser maior ou igual a 18 anos (>= 18)
+// - E - &&
+// - temAssinatura(true)
+
+const podeAcessar = idade >= 18 && temAssinatura
+
+console.log(podeAcessar)

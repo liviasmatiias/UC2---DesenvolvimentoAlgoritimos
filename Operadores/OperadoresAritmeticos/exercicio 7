@@ -1,0 +1,8 @@
+let moedainicial = 150
+let missoes = 3*40
+let item = 95
+
+let resultado1 = moedainicial + missoes - item 
+let total = (moedainicial + missoes - item) / 5
+
+console.log(total) 

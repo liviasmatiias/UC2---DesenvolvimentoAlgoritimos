@@ -1,0 +1,6 @@
+const senha = false
+const rdA = true 
+
+const podeAcessar = senha && rdA 
+
+console.log(podeAcessar)
