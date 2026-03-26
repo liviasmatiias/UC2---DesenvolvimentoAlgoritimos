@@ -1,0 +1,6 @@
+const controle = false
+const cHDMI = true
+
+const podeJogar = controle && cHDMI
+
+console.log(podeJogar)

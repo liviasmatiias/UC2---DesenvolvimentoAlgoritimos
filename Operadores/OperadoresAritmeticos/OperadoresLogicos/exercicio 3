@@ -1,0 +1,6 @@
+const valorCompra = 200
+const clienteVip = false
+
+const podeUsarCupom = valorCompra > 100 || clienteVIP 
+
+console.log(podeUsarCupom)

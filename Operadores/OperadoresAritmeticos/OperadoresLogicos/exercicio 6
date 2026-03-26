@@ -1,0 +1,6 @@
+const permissao = true
+const Arestrita = false 
+
+const permissaodeadm = permissao || Arestrita
+
+console.log(permissaodeadm)

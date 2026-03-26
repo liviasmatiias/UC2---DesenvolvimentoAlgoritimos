@@ -1,0 +1,6 @@
+const primeiroValor = 50
+const segundoValor = 30
+const terceiroValor = 20
+const resultado =  primeiroValor + segundoValor - terceiroValor
+
+console.log(resultado)

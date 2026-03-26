@@ -1,0 +1,9 @@
+let NF = 6
+const NR = 8
+const PT = 4
+const ST = 6
+const TT = 7
+
+const reprovouPassou =  NF > 7 || NR >= 8 || (PT, ST) >6 
+
+console.log(reprovouPassou)

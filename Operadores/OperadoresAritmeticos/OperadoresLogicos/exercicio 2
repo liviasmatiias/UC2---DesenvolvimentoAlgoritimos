@@ -1,0 +1,7 @@
+const idade = 24 // idade da pessoa
+const indentidade = true 
+
+const podeComprar = idade >= 24 && indentidade
+
+console.log(podeComprar)
+
