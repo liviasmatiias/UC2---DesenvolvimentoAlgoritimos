@@ -18,3 +18,25 @@ console.log(meuArrayDiverso)
 arrayFrutas = ["banana", "maça", "tomate"]
 const segundoItem = arrayFrutas[2]
 console.log(segundoItem)
+
+
+//////////////////////////////////////////////////
+
+// PROPRIEDADES DE ARRAY
+// Propriedade length: mos diz qual é a quantidade de um array
+
+const pokemon= ["bulbasauro", "squirtle", "charmander"]
+const quantidadeItens = pokemon.length
+console.log(quantidadeItens)
+
+////////////////////////////////////////////////////////
+
+// Propriedade ou Método Includes(elementos) ; determinase um array contem um determinado elemento. Sempre retorna um true(se sim) ou false(se nao)
+
+const seriesBoas = ["Breaking Bad", "Brooklyn Nine-nine"]
+
+const temBreakingBad = seriesBoas.includes("Breaking Bad")
+const temGOT = seriesBoas.includes("Brooklyn Nine-nine")
+
+console.log("Na array seriesBoas, tem Breaking Bad?", temBreakingBad)
+console.log("na array seriesBoas, tem GOT", temGOT)
