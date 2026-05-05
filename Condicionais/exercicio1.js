@@ -1,0 +1,7 @@
+let idade = 12
+
+if(idade >= 18){
+    console.log("Pode entrar!")
+}else{
+    console.log("Volte quando fizer 18, jovem gafanhoto!")
+}
